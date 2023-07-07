@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+#container{
+    display: flex;
+}
+#menuber{
+    width: 270px;
+    flex-direction: column;
+    position: fixed;
+    font-weight: bold;
+    border-right: 1px solid rgb(224, 220, 220);   
+}
+#logo{
+    width: 103px;
+    height: 29px;
+    margin: 40px 25px 20px;
+}
+.icon{
+    margin: 25px 25px;
+}
+#home{
+    width: 35px;
+    height: 35px;
+}
+#search{
+    width: 35px;
+    height: 35px;
+}
+.text {
+    font-size: 20px;
+    font-weight: 400;
+}
+.space{
+    width: 10px;
+    display: inline-flex;
+}
